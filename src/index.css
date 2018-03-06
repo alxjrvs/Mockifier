@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+h1 {
+  width: 100%;
+}
+
+.cell {
+  height: 70vh;
+  width: 45%;
+  word-wrap: break-all;
+  border: 1px solid #030303;
+  text-align: left;
+  padding: 2px;
+  font: 14px "Times New Roman", Times, serif;
+}
+
+textarea {
+  resize: none;
+  height: 100%;
+  width: 100%;
+  border: 0px ;
+  background: transparent;
+  font: 14px "Times New Roman", Times, serif;
+}
+
+.one {
+  order: 1;
+}
+
+.two {
+  order: 2;
+}
